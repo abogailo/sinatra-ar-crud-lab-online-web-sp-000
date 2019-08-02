@@ -48,7 +48,7 @@ class ApplicationController < Sinatra::Base
     @article.destroy
     redirect '/articles'
   end
-  
+
 
 
 end
