@@ -1,5 +1,5 @@
 
-<h1>Edit your article!</h1>
+<h1>Editour article!</h1>
 <h2>Existing article:</h2>
 <h3><%= @article.title %></h3>
 <p><%= @article.content %></p>
