@@ -1,6 +1,4 @@
 
-<h1>Editour article!</h1>
-<h2>Existing article:</h2>
 <h3><%= @article.title %></h3>
 <p><%= @article.content %></p>
  <h2>New article:</h2>
