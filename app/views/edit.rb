@@ -3,7 +3,6 @@
 <h2>Existing article:</h2>
 <h3><%= @article.title %></h3>
 <p><%= @article.content %></p>
-
  <h2>New article:</h2>
 <form method="post" action="/articles/<%= @article.id %>">
   <input id="hidden" type="hidden" name="_method" value="patch">
